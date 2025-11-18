@@ -35,7 +35,8 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/assert-has-replace-symbol-support": "github:stdlib-js/assert-has-replace-symbol-support#main"
+    "@stdlib/assert-has-replace-symbol-support": "github:stdlib-js/assert-has-replace-symbol-support#main",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.2"
   },
   "devDependencies": {
     "@stdlib/assert-is-symbol": "^0.2.2",
