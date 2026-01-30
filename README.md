@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import ReplaceSymbol from 'https://cdn.jsdelivr.net/gh/stdlib-js/symbol-replace@deno/mod.js';
+import ReplaceSymbol from 'https://cdn.jsdelivr.net/gh/stdlib-js/symbol-replace@v0.1.0-deno/mod.js';
 ```
 
 #### ReplaceSymbol
@@ -91,7 +91,7 @@ var s = typeof ReplaceSymbol;
 
 ```javascript
 import defineProperty from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-property@deno/mod.js';
-import ReplaceSymbol from 'https://cdn.jsdelivr.net/gh/stdlib-js/symbol-replace@deno/mod.js';
+import ReplaceSymbol from 'https://cdn.jsdelivr.net/gh/stdlib-js/symbol-replace@v0.1.0-deno/mod.js';
 
 function replace( str, replacement ) {
     return replacement;
