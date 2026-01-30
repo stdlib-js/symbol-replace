@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/symbol-replace",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Replace symbol.",
   "license": "Apache-2.0",
   "author": {
