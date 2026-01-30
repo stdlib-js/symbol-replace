@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import ReplaceSymbol from 'https://cdn.jsdelivr.net/gh/stdlib-js/symbol-replace@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/symbol-replace/tags). For example,
+
+```javascript
 import ReplaceSymbol from 'https://cdn.jsdelivr.net/gh/stdlib-js/symbol-replace@v0.1.0-esm/index.mjs';
 ```
 
@@ -96,7 +101,7 @@ var s = typeof ReplaceSymbol;
 <script type="module">
 
 import defineProperty from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-property@esm/index.mjs';
-import ReplaceSymbol from 'https://cdn.jsdelivr.net/gh/stdlib-js/symbol-replace@v0.1.0-esm/index.mjs';
+import ReplaceSymbol from 'https://cdn.jsdelivr.net/gh/stdlib-js/symbol-replace@esm/index.mjs';
 
 function replace( str, replacement ) {
     return replacement;
