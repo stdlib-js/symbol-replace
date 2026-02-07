@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/symbol-replace",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Replace symbol.",
   "license": "Apache-2.0",
   "author": {
@@ -35,11 +35,11 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/assert-has-replace-symbol-support": "github:stdlib-js/assert-has-replace-symbol-support#main"
+    "@stdlib/assert-has-replace-symbol-support": "^0.1.0"
   },
   "devDependencies": {
-    "@stdlib/assert-is-symbol": "^0.2.2",
-    "@stdlib/utils-define-property": "^0.2.4",
+    "@stdlib/assert-is-symbol": "^0.2.3",
+    "@stdlib/utils-define-property": "^0.2.5",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git"
